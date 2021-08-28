@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "PS13303_LeMinhNhut_ASM_GD2"

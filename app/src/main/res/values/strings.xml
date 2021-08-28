@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Money Management</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="pie_chart">Pie Chart</string>
+
+    <string name="facebook_app_id">426580621631761</string>
+    <string name="fb_login_protocol_scheme">fb426580621631761</string>
+
+
+    <string-array name="planets_array">
+        <item>Thu</item>
+        <item>Chi</item>
+    </string-array>
+</resources>

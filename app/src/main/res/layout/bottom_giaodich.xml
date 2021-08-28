@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppBottomSheetDialogTheme"
+    android:background="@drawable/gradient">
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPinkDark"/>
+
+    <TextView
+        android:id="@+id/tvCapNhatGiaoDich"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="GIAO DỊCH"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp" />
+
+        <EditText
+            android:id="@+id/etTieuDe"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:hint="Tiêu đề"
+            android:textSize="20dp"
+            android:textColorHint="#FFF"
+            android:layout_height="48dp"/>
+
+         <TextView
+            android:id="@+id/tvNgay"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFF"
+            android:hint="Ngày / tháng / năm"
+             android:textStyle="bold"
+             android:gravity="center_vertical"
+             android:textSize="20dp"
+             android:layout_marginTop="10dp"
+            android:textColorHint="#FFF"
+            android:layout_height="48dp"
+             android:paddingLeft="4dp"/>
+
+    <EditText
+        android:id="@+id/etTien"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"
+        android:hint="Tiền"
+        android:inputType="number"
+        android:textColorHint="#FFF"
+        android:layout_height="48dp"/>
+
+    <EditText
+        android:id="@+id/etMoTa"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:hint="Mô tả"
+        android:textColorHint="#FFF"
+        android:layout_height="48dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTrangThai"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Trạng thái"
+            android:paddingLeft="4dp"/>
+
+        <Spinner
+            android:id="@+id/spnGiaoDich"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:paddingLeft="24dp"
+            android:paddingTop="13dp"
+            android:backgroundTint="#FFF"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGiaoDich"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Thêm"
+        android:textColor="#FFF"
+        android:background="@drawable/radius"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

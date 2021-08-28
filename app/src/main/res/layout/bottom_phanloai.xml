@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppBottomSheetDialogTheme"
+    android:background="@drawable/gradient">
+    <View
+        android:layout_width="70dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPinkDark"/>
+
+    <TextView
+        android:id="@+id/tvCapNhatGiaoDich"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="PHÂN LOẠI THU/CHI"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edt_tenloai"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:hint="Tên loại"
+            android:textColorHint="#FFF"
+            android:layout_height="48dp"/>
+    <Spinner
+        android:id="@+id/sp_phanloai"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="48dp"
+        android:paddingTop="12dp"
+        android:backgroundTint="#FFF"/>
+
+    <Button
+        android:id="@+id/btn_thempl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Thêm"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:background="@drawable/radius"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
